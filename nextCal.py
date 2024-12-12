@@ -64,7 +64,6 @@ def square_root():
 root = tk.Tk()
 root.title("Calculator")
 root.geometry("400x600")
-root.configure(bg="#f0f0f0")
 
 # Entry field for the calculator
 entry = tk.Entry(root, font=("Arial", 24), borderwidth=5, relief="solid", justify="right")
